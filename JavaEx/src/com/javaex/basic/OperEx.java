@@ -20,13 +20,15 @@ public class OperEx {
 		// a가 짝수이면 "짝수", 아니면 "홀수" 문자열
 		String message = a % 2 ==0 ? "짝수" : "홀수";
 		System.out.println("a는 짝수입니까? " + message);
-		
+		 
 		int score = 85;
 		// 점수가 80 이상이면 Good
 		// 점수가 50점 이상이면 Pass
 		// 그렇지 않으면 Fail
 		message = score >= 80 ? "Good" : score >= 50 ? "Pass" : "Fail";
 		System.out.println("시험 결과: " + message);
+		//위에 코드처럼 중첩은 가능하지만 가독성이 떨어지는 문제
+		// 복잡한 비교의 경우는 비교문으로 해결
 	}
 	// 비트 연산자
 	public static void bitOper() {
