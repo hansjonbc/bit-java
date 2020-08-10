@@ -1,6 +1,8 @@
 package com.javaex.basic;
 
 import java.util.Scanner;
+
+//import java.util.Scanner;
 public class ConsoleEx {
 
 	public static void main(String[] args) {
@@ -26,6 +28,10 @@ public class ConsoleEx {
 		System.out.println("이름은" + name + ", 나이는" + age);
 		//시스템 지원을 사용하는 기능을 이용한 후에는
 		// 반드시 닫아주자  중요
+		/*Scanner a = new Scanner(System.in);
+		System.out.print("전화번호");
+		String phone = a.next();*/
+		
 		scanner.close();
 		
 	}
