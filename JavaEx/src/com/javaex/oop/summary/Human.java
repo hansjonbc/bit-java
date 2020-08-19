@@ -1,7 +1,7 @@
 package com.javaex.oop.summary;
 
 public class Human extends Animal {
-	//	생성자
+	//	생성자 a
 	public Human(String name, int age) {
 		super(name, age);
 	}

@@ -1,6 +1,6 @@
 package com.javaex.oop.summary;
 
-//	실체화 되지 않는 클래스
+//	실체화 되지 않는 클래스 a
 //	추상 클래스는 종적 확장
 public abstract class Animal {
 	//	필드

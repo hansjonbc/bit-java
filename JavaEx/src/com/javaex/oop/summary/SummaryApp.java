@@ -1,7 +1,7 @@
 package com.javaex.oop.summary;
 
 public class SummaryApp {
-	//	쿵후 도장 -> 주차장의 예를 생각
+	//	쿵후 도장 -> 주차장의 예를 생각  a
 	static Kungfu[] dojang;	//	인터페이스 참조 타입의 배열
 
 	public static void main(String[] args) {

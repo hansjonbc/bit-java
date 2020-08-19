@@ -1,7 +1,7 @@
 package com.javaex.oop.summary;
 
 public class Panda extends Animal {
-	//	생성자
+	//	생성자a
 	public Panda(String name, int age) {
 		//	부모 생성자 호출
 		super(name, age);
